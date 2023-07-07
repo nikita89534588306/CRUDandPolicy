@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+    @vite('resources/sass/app.scss')
 <body>
+
     <nav class="py-2 bg-body-tertiary border-bottom">
         <div class="container d-flex flex-wrap">
             <ul class="nav me-auto">
@@ -21,5 +23,7 @@
             </ul>
         </div>
     </nav>
+    @vite('resources/js/app.js')
+    
 </body>
 </html>
