@@ -3,6 +3,6 @@
         @include('templates.header')
     </header>
     <main>
-
+        
     <main>
 </x-main-layout>
